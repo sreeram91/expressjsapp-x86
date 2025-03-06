@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from x86 node app");
+  res.send("Hello from x86 node app | Latest Version");
 });
 
 const PORT = process.env.PORT | 4002;
